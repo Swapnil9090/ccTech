@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -76,27 +75,7 @@ public class ccTechSol1 {
         if(val>0)
         	return 1;
         return 2;
-    }
-
-
-	static boolean isNull(Object obj) {
-		if(obj == null) return true;
-		return false;
-	}
-
-	static boolean isNotNull(Object obj) {
-		return !isNull(obj);
-	}
-
-	static boolean isStringBlank(String str) {
-		if(str == null || str.length() == 0) return true;
-		return false;
-	}
-
-	static boolean isNotStringBlank(String str) {
-		return !isStringBlank(str);
-	}
-
+    } 
 	static boolean doIntersect(Pair p1, Pair q1,  
             Pair p2, Pair q2)  
 			{
@@ -125,8 +104,7 @@ public class ccTechSol1 {
 			return true; 
 			} 
 			return false;  
-		}
-		
+		} 
 		public static class Pair{
 		double x;
 		double y;
